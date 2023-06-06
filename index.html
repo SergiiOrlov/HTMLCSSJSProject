@@ -4,45 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <title>Figma Land</title>
+    <!--<link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">-->
 </head>
 <body>
-    <header>
+    <header class="header">
         <style>
-            header {
-                background-image: url("img/Headerpic.png");
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
+            header { background-color: grey;}
         </style>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#"> Home</a>
-                    <a href="#">Poduct</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Pricing2</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                </li>
-                <div>
-                    <img src="img/FigmaLogo.png" alt="FigmaLogo">
-                </div>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#"> <img src="  img/TwitterlogoVector.png" alt="Twitter"> </a>
-                            <a href="#"> <img src="img/FBLogoVector.png" alt="FB"> </a>
-                            <a href="#"> <img src="img/LILogoVector.png" alt="LI"> </a>
-                        </li>
-                    </ul>
-                </nav>
-            </ul>
-        </nav>
-
+        <div class="header__up">
+            <nav class="header__navmenu">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        <a href="#product">Poduct</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__figmalogo">
+                <img src="img/figmaLogo.png" alt="FigmaLogo">
+            </div>
+            <nav class="header__socialmedia">
+                <ul>
+                    <li>
+                        <a href="#"> <img src="img/twlogo.png" alt="Twitter logo"> </a>
+                        <a href="#"> <img src="img/fbLogo.png" alt="FB logo"> </a>
+                        <a href="#"> <img src="img/liLogo.png" alt="LI logo"> </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__midle">
+            <h1>The best products
+                start with Figma
+            </h1>
+            <p>Most calendars are designed for teams. Slate is designed
+                for freelancers
+            </p>
+        </div>
+        <div class="header_bottom" >
+            <a id="button-tryforfree-header " href="#">Try For Free</a>
+        </div>
     </header>
     <main>
+        <section id="features " class="features">
+            <h2>Features</h2>
+            <p>
+                Most calendars are designed for teams.
+                Slate is designed for freelancers
+            </p>
+            <div class="features__one">
+                <img src="img/dotandsquare.png" alt="Dot and square picture" />
+                <h3>
+                    OpenType features
+                    Variable fonts
+                </h3>
+                <p>
+                    Slate helps you see how
+                    many more days you need
+                    to work to reach your
+                    financial goal.
+                </p>
+            </div>
+            <div class="features__two">
+                <!--<img src="img/dotandsquare.png" alt="Dot and square picture" />-->
+                <h3>Design with real data</h3>
+                <p>
+                    Slate helps you see how
+                    many more days you need
+                    to work to reach your
+                    financial goal.
+                </p>
+            </div>
+            <div class="features__three">
+                <img src="img/brush.png" alt="Brush picture" />
+                <h3>
+                    Fastest way to
+                    take action
+                </h3>
+                <p>
+                    Slate helps you see how
+                    many more days you need
+                    to work to reach your
+                    financial goal.
+                </p>
+            </div>
+            <img src="img/videoscreen.png" alt="Video screen picture" />
+        </section>
+        <section id="product " class="product">
+            <h2>
+                Fastest way to
+                organize
+            </h2>
+            <p>
+                Most calendars are designed for teams.
+                Slate is designed for freelancers
+            </p>
+            <a id="button-tryforfree-product " href="#">Try For Free</a>
+            <img src="img/screenmask.png" alt="Screen mask picture" />
+            <img src="img/base.png" alt="Base picture" />
+            <img src="img/basebottom.png" alt="Base bottom picture" />
+        </section>
 
     </main>
     <footer>
