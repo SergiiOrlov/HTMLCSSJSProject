@@ -1,5 +1,5 @@
 .header {
-    background: no-repeat center url("img/headerpic.png");
+    background: no-repeat center url("../img/headerpict.png");
     background-size: cover;
     background-position: center;
     color: var(--main-text-color);
