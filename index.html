@@ -5,49 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma Land</title>
-    <style> header {background-color: grey;}</style>
+    <!-- <style> header {background-color: grey;}</style>-->
     <link rel="stylesheet" href="css/index.css"/>
     <!--<link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">-->
 </head>
 <body>
-    <header class="header">
-        <div class="header__up">
-            <nav class="header__navmenu">
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                        <a href=#product>Poduct</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">About</a>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul> 
-            </nav>
-            <div class="header__figmalogo">
-                <img src="img/figmalogo.png" alt="Figma Logo">
-            </div>
-            <nav class="header__socialmedia">
-                <ul>
-                    <li>
-                        <a href="#"> <img src="img/twlogo.png" alt="Twitter logo"></a>
-                        <a href="#"> <img src="img/fblogo.png" alt="FB logo"></a>
-                        <a href="#"> <img src="img/lilogo.png" alt="LI logo"></a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header__midle">
-            <h2>The best products
-                start with Figma
-            </h2>
-            <p class="header__most">Most calendars are designed for teams. Slate is designed
-                for freelancers
-            </p>
-        </div>
-        <div class="header_bottom" >
-            <a id="button-tryforfree-header" href="#">Try For Free</a>
-        </div>
-    </header>
+
+    <header data-include="./partials/header.partial.html"></header>
+
     <main>
         <section id="features" class="features">
             <h2>Features</h2>
@@ -107,8 +72,11 @@
             <img src="img/base.png" alt="Base picture">
             <img src="img/basebottom.png" alt="Base bottom picture">
         </section>
+
+        
     </main>
     <footer>
     </footer>
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
 </body>
 </html>

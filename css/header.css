@@ -1,0 +1,7 @@
+.header {
+    background-image: url("../img/headerpic.png");
+    /* background-color: grey;*/
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}

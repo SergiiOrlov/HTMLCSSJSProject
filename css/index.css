@@ -1,3 +1,4 @@
-@import url(global.css);
-@import url(heder.css);
-@import url(footer.css);
+@import "./global.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./footer.css";
