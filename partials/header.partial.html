@@ -1,40 +1,45 @@
 <header class="header">
     <div class="header__up">
-        <nav class="header__navmenu menu">
-            <ul>
-                <li>
-                    <a href="#" class="menu__item">Home3</a>
-                    <a href=#product class="menu__item">Poduct</a>
-                    <a href="#" class="menu__item">Pricing</a>
-                    <a href="#" class="menu__item">About</a>
-                    <a href="#" class="menu__item">Contact</a>
-                </li>
-            </ul>
+        <nav class="header__navigation">
+            <div class="header__menu">
+                <a href="#" class="menu__item">Home</a>
+                <a href=#product class="menu__item">Poduct</a>
+                <a href="#" class="menu__item">Pricing</a>
+                <a href="#" class="menu__item">About</a>
+                <a href="#" class="menu__item">Contact</a>
+            </div>
         </nav>
+
         <div class="header__figmalogo">
             <img src="./img/figmalogo.png" alt="Figma Logo">
         </div>
-        <nav class="header__socialmedia socialmedia">
-            <ul>
-                <li>
-                    <a href="#" class="socialmedia__item"> <img src="img/twlogo.png" alt="Twitter logo"></a>
-                    <a href="#" class="socialmedia__item"> <img src="img/fblogo.png" alt="FB logo"></a>
-                    <a href="#" class="socialmedia__item"> <img src="img/lilogo.png" alt="LI logo"></a>
-                </li>
-            </ul>
+        <nav class="header__socialmedia">
+            <div class="header__socialmedia socialmedia">
+                <a href="#" class="socialmedia__item"> <img src="img/twlogo.png" alt="Twitter logo"></a>
+                <a href="#" class="socialmedia__item"> <img src="img/fblogo.png" alt="FB logo"></a>
+                <a href="#" class="socialmedia__item"> <img src="img/lilogo.png" alt="LI logo"></a>
+            </div>
         </nav>
+        
     </div>
-    <div class="header__midle">
-        <h2>
+    <div class="header__midle midle">
+        <h2 class="midle__headertext">
             The best products
+        </h2>
+        <h2 class="midle__headertext">
             start with Figma
         </h2>
-        <p class="header__most">
+        <p class="midle__paragraftext" id="midle__paragraftext-start">
             Most calendars are designed for teams. Slate is designed
-            for freelancers
+        </p>
+        <p class="midle__paragraftext" id="midle__paragraftext-end">
+            for freelancers.
         </p>
     </div>
-    <div class="header_bottom">
-        <a id="button-tryforfree-header" href="#">Try For Free</a>
-    </div>
+    <nav class="header_bottom button">
+        <div class="button">
+            <a id="button-tryforfree" href="#">Try For Free</a>
+        </div>
+    </nav>
+   
 </header>

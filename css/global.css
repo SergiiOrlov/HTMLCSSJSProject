@@ -7,14 +7,15 @@
 }
 
 :root {
+    --main-text-color: white;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 
-/*
+
 img {
     display: block;
     width: 100%;
-}*/
+}
 
 
