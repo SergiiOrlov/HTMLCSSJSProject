@@ -1,0 +1,79 @@
+
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product__haed {
+    text-align: center;
+    font-size: 28px;
+}
+
+.product__paragrag-full, .product__paragrag-mobile {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.product__paragrag-full {
+    display: none;
+}
+
+.product__button {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px
+}
+
+.product .product__describe-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+/*#pictures-notebook {
+    width: 379px;
+    height: 196px;
+}
+*/
+
+
+
+@media (min-width: 920px) {
+    .product__paragrag-full {
+        display: inline;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+        .product .product__describe-secton {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+            .product .product__describe-secton .product__haed {
+                font-size: 48px;
+            }
+
+            .product .product__describe-secton .product__paragrag-mobile {
+                font-size: 28px;
+            }
+
+            .product .product__describe-secton .product__paragrag-full {
+                font-size: 28px;
+            }
+
+        .product .product__describe-pictures {
+            display: flex;
+            flex-direction: row;
+            width: 625px;
+            height: 13px;
+        }
+}
