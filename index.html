@@ -5,20 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma Land</title>
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/index.css"/>
     <!--<link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">-->
-    <script>
-        window.addEventListener('resize', function () {
-            if (window.innerWidth <= 920) {
-                document.getElementById('midle__paragraftext-start').innerHTML = 'Most calendars are designed for teams.';
-                document.getElementById('midle__paragraftext-end').innerHTML = ' ';
-
-            } else {
-                document.getElementById('midle__paragraftext-start').innerHTML = 'Most calendars are designed for teams. Slate is designed';
-                document.getElementById('midle__paragraftext-end').innerHTML = 'for freelancers.';
-            }
-        });
-    </script>
+    
 </head>
 <body>
 
@@ -27,14 +16,11 @@
     <main>
         <section data-include="./partials/features.partial.html"></section>
         <section data-include="./partials/product.partial.html"></section>
-        
-
-       
-
 
     </main>
     <footer>
     </footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script src="js/resize.js"></script>
 </body>
 </html>

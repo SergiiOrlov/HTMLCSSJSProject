@@ -18,9 +18,7 @@
     display: none;
 }
 
-.header__figmalogo {
-    padding: 20px;
-}
+
 
 .header__midle {
     display: flex;
@@ -40,11 +38,14 @@
 
 
 @media (min-width: 920px) {
+
+  
     .header__up {
         display: flex;
         justify-content: space-around;
     }
 
+  
     .header__navigation {
         display: flex;
         align-items: center;

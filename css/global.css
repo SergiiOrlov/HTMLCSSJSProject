@@ -9,6 +9,9 @@
 :root {
     --main-text-color: white;
     --color-button: #2091F9;
+    --color-burger: white;
+    --color-burger-navmenu-bk: grey;
+    --color-burger-navmenu-txt: white;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }

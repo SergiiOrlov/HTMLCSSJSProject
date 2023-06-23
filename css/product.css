@@ -5,8 +5,10 @@
 }
 
 .product__haed {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    font-size: 24px;
+    font-size: 48px;
 }
 
 .product__paragrag-full, .product__paragrag-mobile {
@@ -38,6 +40,8 @@
 
     .product {
         display: flex;
+        display: flex;
+        display: flex; 
         flex-direction: row;
         justify-content: space-around;
     }
@@ -49,15 +53,17 @@
         }
 
             .product .product__describe-secton .product__haed {
-                font-size: 28px;
+                font-size: 48px;
             }
 
             .product .product__describe-secton .product__paragrag-mobile {
                 font-size: 28px;
+                text-align: left; 
             }
 
             .product .product__describe-secton .product__paragrag-full {
                 font-size: 28px;
+                text-align: left;
             }
 
         .product .product__describe-pictures {
